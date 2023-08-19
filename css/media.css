@@ -1,0 +1,41 @@
+/* @media(min-width:576px) small screen */
+/* @media(min-width:768px) tablate screen */
+/* @media(min-width:992px) large screen */
+/* @media(min-width:1200px) Xlarge screen */
+
+
+/***** Iphone******/
+@media(max-width:768px){
+    .Home{ margin-bottom: -200px;}
+    .Home .first{ margin-right: 200px !important; margin-top: 60px;  }
+    .Home h1{ font-size: 35px !important;}
+    .Home h5{ font-size: 17px !important;} #move{ font-size: 17px !important;}
+    .Home p{ font-size: 15px !important;}
+    .Home .photo-one{  width: 250px !important; height: 250px !important; margin-left: 120px !important; margin-top: -20px !important;}
+/* ***************** */
+     .About .photo-two{ width: 0px !important; height:0px !important ; margin-top: 150px !important; position: absolute; margin-left: 200px; }
+     .About .sacand {  margin-left:10px !important; margin-top: -10px;}
+     .About h2{ font-size: 40px !important;}
+     .About h5{ font-size: 18px !important;}
+     .About p{ font-size: 10px !important;}
+/* ***************** */
+     footer .link{ margin-top: 40px;}
+}
+
+/***** Ipad ******/
+@media(width:768px){
+    .Home{ margin-bottom: -135px;}
+    .Home h1{ font-size: 60px !important;}
+    .Home h5{ font-size: 30px !important;} #move{ font-size: 30px !important;}
+    .Home p{ font-size: 20px !important;}
+    .Home .photo-one{  width: 350px !important; height: 350px !important; margin-left: 370px !important; margin-top: -105px !important;}
+/* *********************** */
+.About .photo-two{ width: 350px !important; height:350px !important ; margin-top: -50px !important; margin-left: -10px; }
+.About .sacand {  margin-left:350px !important; margin-top: -10px;}
+.About h2{ font-size: 50px !important;}
+.About h5{ font-size: 20px !important;}
+.About p{ font-size: 15px !important;}
+/* *********************** */
+footer .link{ margin-left:50px !important ; margin-top: -3px !important;}
+footer .share{ margin-left: 52px !important;}
+  }

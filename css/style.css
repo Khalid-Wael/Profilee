@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-brand{ font-size: 25px !important;}
+#name{ color: red !important;}
+.btn{ color: white !important;}
+.collapse{ padding: 5px 10px !important;  font-size: 18px !important;} 
+/* ***************** start Home ************************************ */
+.Home { background-color: black; height: 680px;}
+.first{ position: absolute; margin: 200px 45px;}
+.first p{ color: white; font-size: 20px;}
+.first h1{ font-size: 90px; color: white;}
+#move{ font-size: 30px; overflow: hidden; position: relative;} #move::after{ content:"developer"; display:inline-block; animation: animation 6.5s steps(9) infinite; width: 0ch; color: white}  #move::before{display: inline-block; content: ""; width: 2px; height: 70%; margin-top: 7px;  background-color: lightseagreen; position: absolute; right:0; animation: blinking -4s linear alternate infinite;} @keyframes animation{ 25% { content: "developer"; width: 8.5ch;} 40%{width: 0ch;} 75% {content:" designer"; width: 7.5ch;} 90%{ width: 0ch;}} @keyframes blinking {100%{opacity:0;}} 
+.first h5{ font-size: 30px; color: white;}
+#stat{ color: red;}
+.first button{ width: 110px; height: 40px; border-radius: 10px; color: white; background-color: red; border: none;}
+.photo-one{ width: 500px; height: 500px; margin-left: 900px; margin-top: -400px; background-image: url('../img/Opinion-bro.png'); background-size: cover; background-repeat: no-repeat;}
+/* ***************** start section About ******************************** */
+.About{ padding: 100px 0; background-color: rgb(26, 26, 26);}
+.About h2{font-size: 80px; color: white;}
+.About h5{ font-size: 30px; color: white;}
+.About P{ font-size: 20PX; color: white;}
+.photo-two{ width: 400px; height: 400px; background-image: url('../img/Resume-bro.png'); background-size: cover; background-repeat: no-repeat;}
+.sacand{ margin-left: 490px; margin-top: -350px;}
+/* ***************** start section My Projects ************************** */
+.MyProjects h2{color: white; font-size: 50px;}
+.MyProjects{ padding: 100px 0; background-color:black; color: white; }
+.MyProjects p{font-size: 22px; background-color: rgba(255, 255, 255, 0.1); padding: 80px; border-radius: 50px; margin-top: 50px;}
+.MyProjects .carousel-indicators{ position: absolute; bottom: -50px;}
+.links{ color: red;}
+/* ***************** start section skills ******************************* */
+.Skills{ padding: 100px 0;  background-color: rgb(26, 26, 26); }
+.Skills h2{ color: white; font-size: 50px; }
+.card{background-color: black !important; color: white; margin: 40px 25px  !important;}
+.card-title{ font-size: 25px !important; color: red;}
+.btn{background-color: red !important;}
+/* ***************** start footer *************************************** */
+footer{ padding: 100px 0; background-color: black; color: white;}
+footer a{ color: red;}
+.share{  list-style: none;}
+
